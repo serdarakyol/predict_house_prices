@@ -12,10 +12,10 @@ data_visualize.ipynb file for analyse the dataset
 train.ipynb for train different models and see the results
 
 ## RESULTS
-MODEL | Linear Regression | Random Forest Regressor | XGBoost Regression |
---- | --- | --- | --- |
-R2 SCORE | 0.069 | 0.767 | 0.600 |
-RMSE | 8471841.272527765 | 4233978.736183579 | 4463225.761568096 |
-MSE | 71772094546904.88 | 17926575938454.695 | 19920384198725.105 |
-MAE | 1559419.4148334502 | 830613.5209224033 | 941689.3147012601 |
+MODEL | XGBRegressor | RandomForestRegressor | Lasso | LinearRegression |
+--- | --- | --- | --- | --- |
+R2 SCORE | 0.614 | 0.532 | 0.078 | 0.077 |
+RMSE | 4661217.449263945 | 5128552.104690856 | 7203058.581229313 | 7206951.692021304 |
+MSE | 21726948109322.676 | 26302046690529.016 | 51884052924621.25 | 51940152691128.734 |
+MAE | 936161.1389531724 | 821550.8325420639 | 1460698.8133045027 | 1486661.9948830162 |
 
