@@ -8,7 +8,7 @@ virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-data_visualize.ipynb file for analyse the dataset
+data_visualize.ipynb file for analyse the dataset,
 train.ipynb for train different models and see the results
 
 ## RESULTS
